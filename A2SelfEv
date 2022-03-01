@@ -1,0 +1,12 @@
+Our programs:
+
+ 1. Are free of runtime errors (up to -10)
+ 2. Generates the expected output (It is able to play the game) (-10 to -3.5)
+ 3. Implements a list ADT as required (-2.5)
+ 4. Pass testing with both good and bad input files (depends on functionality effect)
+ 5. Performs checking of command line arguments (-1.5)
+ 6. Performs checking of CardFile for correct format (-1.5)
+ 7. Compile correctly and do not display warnings (depends on severity)
+ 8. Use a makefile as required (-1) - Ensure your programs compile with $make -f A2Makefile
+
+We invested 50 hours working on this assignment.

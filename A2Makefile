@@ -1,0 +1,12 @@
+A2: A2.o list.o
+	gcc list.o A2.o -o A2
+
+A2.o: A2.c 
+	gcc -c A2.c
+	
+list.o: list.c
+	gcc -c list.c
+
+clean:
+	find . -maxdepth 1 -type f -executable -exec rm {} +
+	find . -type f -name '*.o' -delete
